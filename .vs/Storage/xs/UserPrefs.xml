@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{F859805F-DB51-45B5-A82B-51F74CA4657D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Storage.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.02EFC070-D59E-417A-93B7-08D82E5EF012" />
+  <MonoDevelop.Ide.ItemProperties.Storage.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Storage/ViewModels/ItemsViewModel.cs">
+    <Files>
+      <File FileName="Storage/Views/AboutPage.xaml" Line="33" Column="17" />
+      <File FileName="Storage/Views/AboutPage.xaml.cs" Line="10" Column="31" />
+      <File FileName="Storage/Views/BoxDetailPage.xaml" Line="2" Column="284" />
+      <File FileName="Storage/Models/StorageBox.cs" Line="6" Column="18" />
+      <File FileName="Storage/Views/BoxDetailPage.xaml.cs" Line="34" Column="15" />
+      <File FileName="Storage/Views/BoxesPage.xaml" Line="13" Column="40" />
+      <File FileName="Storage/Views/BoxesPage.xaml.cs" Line="32" Column="63" />
+      <File FileName="Storage/Views/MainPage.xaml" Line="17" Column="31" />
+      <File FileName="Storage/Views/MainPage.xaml.cs" Line="24" Column="14" />
+      <File FileName="Storage/Views/MenuPage.xaml" Line="8" Column="45" />
+      <File FileName="Storage/Views/MenuPage.xaml.cs" Line="27" Column="44" />
+      <File FileName="Storage/Views/NewBoxPage.xaml" Line="2" Column="291" />
+      <File FileName="Storage/Views/NewBoxPage.xaml.cs" Line="20" Column="15" />
+      <File FileName="Storage/App.xaml" Line="4" Column="29" />
+      <File FileName="Storage/App.xaml.cs" Line="16" Column="39" />
+      <File FileName="Storage/ViewModels/ItemsViewModel.cs" Line="21" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Storage" expanded="True">
+            <Node name="Storage" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="ItemsViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="BoxDetailPage.xaml" expanded="True" />
+                <Node name="BoxesPage.xaml" expanded="True" />
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="MenuPage.xaml" expanded="True" />
+                <Node name="NewBoxPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
