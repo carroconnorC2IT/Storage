@@ -10,6 +10,8 @@
             <Entry Text="{Binding Item.Text}" d:Text="Item name" FontSize="Small" />
             <Label Text="Box Location" FontSize="Medium" />
             <Entry Text="{Binding Item.Description}" d:Text="Item description" FontSize="Small" Margin="0" />
+            <Label Text="Add Items in your storage box" FontSize="Medium"></Label>
+            <Entry Text="{Binding Item.ItemsInBox}" d:Text="Items In Box" FontSize="Small" Margin="0" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
