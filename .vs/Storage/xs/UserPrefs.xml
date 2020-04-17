@@ -1,25 +1,17 @@
 ﻿<Properties StartupConfiguration="{F859805F-DB51-45B5-A82B-51F74CA4657D}|Default">
   <MonoDevelop.Ide.ItemProperties.Storage.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.02EFC070-D59E-417A-93B7-08D82E5EF012" />
-  <MonoDevelop.Ide.ItemProperties.Storage.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Storage/Views/NewBoxPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.Storage.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Storage/Views/BoxesPage.xaml.cs">
     <Files>
-      <File FileName="Storage/Views/AboutPage.xaml" Line="33" Column="17" />
-      <File FileName="Storage/Views/AboutPage.xaml.cs" Line="10" Column="31" />
-      <File FileName="Storage/Views/BoxDetailPage.xaml" Line="2" Column="284" />
-      <File FileName="Storage/Models/StorageBox.cs" Line="6" Column="18" />
-      <File FileName="Storage/Views/BoxDetailPage.xaml.cs" Line="34" Column="15" />
-      <File FileName="Storage/Views/BoxesPage.xaml" Line="3" Column="5" />
-      <File FileName="Storage/Views/BoxesPage.xaml.cs" Line="32" Column="63" />
-      <File FileName="Storage/Views/MainPage.xaml" Line="17" Column="31" />
-      <File FileName="Storage/Views/MainPage.xaml.cs" Line="24" Column="14" />
-      <File FileName="Storage/Views/MenuPage.xaml" Line="8" Column="45" />
-      <File FileName="Storage/Views/MenuPage.xaml.cs" Line="27" Column="44" />
-      <File FileName="Storage/Views/NewBoxPage.xaml" Line="15" Column="15" />
-      <File FileName="Storage/Views/NewBoxPage.xaml.cs" Line="20" Column="15" />
-      <File FileName="Storage/App.xaml" Line="4" Column="29" />
-      <File FileName="Storage/App.xaml.cs" Line="16" Column="39" />
-      <File FileName="Storage/ViewModels/ItemsViewModel.cs" Line="22" Column="45" />
-      <File FileName="Storage/Models/MenuItem.cs" Line="1" Column="1" />
+      <File FileName="Storage/Services/MockDataStore.cs" Line="34" Column="1" />
+      <File FileName="Storage/Views/BoxDetailPage.xaml.cs" Line="33" Column="19" />
+      <File FileName="Storage/Views/AboutPage.xaml" Line="6" Column="28" />
+      <File FileName="Storage/ViewModels/ItemsViewModel.cs" Line="27" Column="1" />
+      <File FileName="Storage/Models/StorageBox.cs" Line="11" Column="55" />
+      <File FileName="Storage/Views/NewBoxPage.xaml.cs" Line="29" Column="1" />
+      <File FileName="Storage/Views/NewBoxPage.xaml" Line="17" Column="15" />
+      <File FileName="Storage/Views/BoxesPage.xaml" Line="7" Column="69" />
+      <File FileName="Storage/Views/BoxesPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,10 +23,12 @@
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="BoxDetailPage.xaml" expanded="True" />
-                <Node name="BoxesPage.xaml" expanded="True" />
+                <Node name="BoxesPage.xaml" expanded="True">
+                  <Node name="BoxesPage.xaml.cs" selected="True" />
+                </Node>
                 <Node name="MainPage.xaml" expanded="True" />
                 <Node name="MenuPage.xaml" expanded="True" />
-                <Node name="NewBoxPage.xaml" expanded="True" selected="True" />
+                <Node name="NewBoxPage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
@@ -46,7 +40,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/carr/Projects/Storage/Storage/ViewModels/ItemsViewModel.cs" relfile="Storage/ViewModels/ItemsViewModel.cs" line="24" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

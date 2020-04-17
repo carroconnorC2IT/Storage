@@ -8,6 +8,6 @@ namespace Storage.Models
         public string Id { get; set; }
         public string BoxName { get; set; }
         public string BoxLocation { get; set; }
-        public List<string> ItemsInBox { get; set; }
+        //public List<string> ItemsInBox { get; set; }
     }
 }

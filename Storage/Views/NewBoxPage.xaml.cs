@@ -15,7 +15,7 @@ namespace Storage.Views
 
             Item = new StorageBox
             {
-                BoxName = "Item name",
+                BoxName = "Something",
                 BoxLocation = "Basement"
             };
 

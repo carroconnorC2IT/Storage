@@ -13,18 +13,18 @@ namespace Storage.Services
 
         public MockDataStore()
         {
-            List<string> freshItemsList = new List<string>();
-            freshItemsList.Add("mirror");
-            freshItemsList.Add("dresser");
+            //List<string> freshItemsList = new List<string>();
+            //freshItemsList.Add("mirror");
+            //freshItemsList.Add("dresser");
 
             items = new List<StorageBox>()
             {
-                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "First box", BoxLocation="Basement.", ItemsInBox = freshItemsList},
-                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Second box", BoxLocation="Attic.", ItemsInBox = freshItemsList },
-                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Third box", BoxLocation="Uhaul.", ItemsInBox = freshItemsList },
-                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Fourth box", BoxLocation="Basement.", ItemsInBox = freshItemsList },
-                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Fifth box", BoxLocation="Storage facility.", ItemsInBox = freshItemsList },
-                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Sixth box", BoxLocation="Uhaul.", ItemsInBox = freshItemsList }
+                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "First box", BoxLocation="Basement." }, //ItemsInBox = freshItemsList},
+                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Second box", BoxLocation="Attic." }, //ItemsInBox = freshItemsList },
+                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Third box", BoxLocation="Uhaul." }, // ItemsInBox = freshItemsList },
+                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Fourth box", BoxLocation="Basement." }, //ItemsInBox = freshItemsList },
+                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Fifth box", BoxLocation="Storage facility." }, //ItemsInBox = freshItemsList },
+                new StorageBox { Id = Guid.NewGuid().ToString(), BoxName = "Sixth box", BoxLocation="Uhaul." }, //ItemsInBox = freshItemsList }
             };
         }
 

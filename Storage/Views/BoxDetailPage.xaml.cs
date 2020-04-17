@@ -30,7 +30,7 @@ namespace Storage.Views
             {
                 BoxName = "Item 1",
                 BoxLocation = "This is an item description.",
-                ItemsInBox = freshItemsList
+                //ItemsInBox = freshItemsList
             };
 
             viewModel = new ItemDetailViewModel(item);

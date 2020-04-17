@@ -24,7 +24,12 @@ namespace Storage.ViewModels
                 var newItem = item as StorageBox;
                 Items.Add(newItem);
                 await DataStore.AddItemAsync(newItem);
+
+                var test = Items;
+                var breakpoint = 1;
             });
+
+            
         }
 
         async Task ExecuteLoadItemsCommand()
